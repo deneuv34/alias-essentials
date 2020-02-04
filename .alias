@@ -1,0 +1,32 @@
+
+# Kubernetes
+alias kgpod='kubectl get pod'
+alias kgsvc='kubectl get service'
+alias kgw='kubectl get gateway'
+alias kgcer='kubectl get certificate'
+alias kgi='kubectl get issuer'
+alias kgci='kubectl get clusterissuer'
+alias kgvs='kubectl get virtualservice'
+alias kdepod='kubectl describe pod'
+alias kdesvc='kubectl describe service'
+alias kdegw='kubectl describe gateway'
+alias kdevs='kubectl describe virtualservice'
+alias kdecer='kubectl describe certificate'
+alias kdei='kubectl describe issuer'
+alias kdeci='kubectl describe clusterissuer'
+
+# Docker Commands
+alias dcleanall='docker system prune -a'
+alias dbuild='docker build'
+alias drun='docker run'
+alias dlog='docker log'
+alias dimg='docker images'
+
+# Docker compose
+alias dcup='docker compose up -d'
+alias ddown='docker compose down'
+
+# Asciinema
+alias ac='asciinema'
+alias acp='asciinema play'
+alias acr='asciinema rec'
