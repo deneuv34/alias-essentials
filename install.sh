@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp .alias $HOME/
+cp .aliases $HOME/
 
 cat >> $HOME/.zshrc << EOF
 if [ -f ~/.aliases ]; then
