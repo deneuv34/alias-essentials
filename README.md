@@ -6,4 +6,6 @@ This is only aliases command that personally used on daily working. The `install
 If sudo permission is needed
 ```bash
 $ sudo ./install.sh
+
+$ source ~/.zshrc
 ```
